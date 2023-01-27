@@ -1,0 +1,151 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>6/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Jan 22 15:37:51 GMT 2023</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (57 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>smoke sanity </td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='groupExecution.SecondTest.Second1Test()'><b>Second1Test</b><br>Test class: groupExecution.SecondTest<br/>
+<a href="#Output-887750041" onClick='toggleBox("Output-887750041", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-887750041" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-887750041">
+Second1Test<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>groupExecution.SecondTest@10e92f8f</td></tr>
+<tr>
+<td title='groupExecution.FirstTest.First3Test()'><b>First3Test</b><br>Test class: groupExecution.FirstTest<br/>
+<a href="#Output-921420643" onClick='toggleBox("Output-921420643", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-921420643" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-921420643">
+first3Test<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>groupExecution.FirstTest@5be6e01c</td></tr>
+<tr>
+<td title='groupExecution.ThirdTest.Third2Test()'><b>Third2Test</b><br>Test class: groupExecution.ThirdTest<br/>
+<a href="#Output-817978763" onClick='toggleBox("Output-817978763", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-817978763" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-817978763">
+Third2Test<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>groupExecution.ThirdTest@1534f01b</td></tr>
+<tr>
+<td title='groupExecution.FirstTest.First2Test()'><b>First2Test</b><br>Test class: groupExecution.FirstTest<br/>
+<a href="#Output-576020159" onClick='toggleBox("Output-576020159", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-576020159" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-576020159">
+first2Test<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>groupExecution.FirstTest@5be6e01c</td></tr>
+<tr>
+<td title='groupExecution.SecondTest.Second2Test()'><b>Second2Test</b><br>Test class: groupExecution.SecondTest<br/>
+<a href="#Output-1010953501" onClick='toggleBox("Output-1010953501", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1010953501" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1010953501">
+Second2Test<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>groupExecution.SecondTest@10e92f8f</td></tr>
+<tr>
+<td title='groupExecution.FirstTest.First1Test()'><b>First1Test</b><br>Test class: groupExecution.FirstTest<br/>
+<a href="#Output-690686166" onClick='toggleBox("Output-690686166", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-690686166" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-690686166">
+first1Test<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>groupExecution.FirstTest@5be6e01c</td></tr>
+</table><p>
+</body>
+</html>
